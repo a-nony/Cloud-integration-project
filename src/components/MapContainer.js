@@ -30,11 +30,11 @@ import React from 'react'
 
   return (
     <div>
-        <LoadScript googleMapsApiKey='AIzaSyC-9HBtGH2Tn5omz6Y4g9B29Jg5EVVx2xE'>
+        {/* <LoadScript googleMapsApiKey='AIzaSyC-9HBtGH2Tn5omz6Y4g9B29Jg5EVVx2xE'> */}
             <GoogleMap mapContainerStyle={mapStyles} zoom={15} center={defaultCenter}>
                 <Marker key={item.name} position={item.location}/>
             </GoogleMap>
-        </LoadScript>
+       {/* </LoadScript> */}
       {/* <h5>Everything in google maps</h5> */}
     </div>
   )
